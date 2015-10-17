@@ -1,44 +1,44 @@
-Programming Exercise: Natural Language Calculator Problem
+<h1>Programming Exercise: Natural Language Calculator Problem</h1>
 
 Write a text-based console application to perform simple natural language calculations.
-For example, if the user enters the text ‘two plus four’ the program would output the value ‘6’.
+For example, if the user enters the text â€˜two plus fourâ€™ the program would output the value â€˜6â€™.
 The program should be implemented in Java and please avoid using libraries or scripting engines, for
 this exercise we want to see how you would implement the solution yourself.
 We would expect implementation to take no more than 4 hours.
 
-Specification
+<h1>Specification</h1>
 
-Supported Input Values
+<b>Supported Input Values</b>
 - The supported input values are the whole numbers between zero and nine inclusive.
-- Input values must be expressed as text, e.g. ‘one’, ‘five’, etc
-- Input values are not case-sensitive. Both ‘two and ‘TWO’ are equally valid.
+- Input values must be expressed as text, e.g. â€˜oneâ€™, â€˜fiveâ€™, etc
+- Input values are not case-sensitive. Both â€˜two and â€˜TWOâ€™ are equally valid.
 
-Supported Arithmetic Operators
+<b>Supported Arithmetic Operators</b>
 - The supported arithmetic operators and the permitted natural language aliases for these
 commands are detailed in the table below.
-- Aliases are not case-sensitive. Both ‘add’ and ‘ADD’ are equally valid.
+- Aliases are not case-sensitive. Both â€˜addâ€™ and â€˜ADDâ€™ are equally valid.
 
-Operator Permitted Aliases
-Add (+)        ->    add, plus
+<b>Operator Permitted Aliases</b>
+Add (+)         ->    add, plus
 Subtract (-)    ->    subtract, minus, less
 Multiply (*)    ->    multiply-by, times
-Divide (/)    ->    divide-by, over
+Divide (/)      ->    divide-by, over
 
-Operation Chaining
+<b>Operation Chaining</b>
 - Any number of operations may be chained together
 o For example, these calculations are all valid
-- ‘one plus two’
-- ‘seven times eight minus nine’
-- ‘four times five subtract six over one plus nine’
+- â€˜one plus twoâ€™
+- â€˜seven times eight minus nineâ€™
+- â€˜four times five subtract six over one plus nineâ€™
 
-Operator Precedence
+<b>Operator Precedence</b>
 - When two or more operations are chained together, any multiply or divide operation must take
 precedence over any add or subtract operation, similar to how a real calculator works.
-o For example, the calculation ‘one plus two times three’ will give the result ‘7’ not ‘9’.
+o For example, the calculation â€˜one plus two times threeâ€™ will give the result â€˜7â€™ not â€˜9â€™.
 - The examples section contains further examples to illustrates operator precedence.
 - Note that there is no requirement to support the use of brackets to alter operator precedence.
 
-Examples
+<b>Examples</b>
 
 Please enter a calculation:
 nine over eight plus four times two divide-by three
